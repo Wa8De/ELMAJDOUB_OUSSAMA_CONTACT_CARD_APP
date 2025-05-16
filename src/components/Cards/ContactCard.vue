@@ -1,13 +1,14 @@
 <!-- src/components/Contact/ContactCard.vue -->
 <template>
   <div
-    class="border rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow duration-300 bg-white space-y-2 relative"
+    class="border border-gray-300 rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow duration-300 bg-white space-y-2 relative"
   >
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541"
-      class="w-full object-cover rounded-md mb-3"
-      alt="Profile Image"
-    />
+    <div
+      class="w-full h-32 bg-gray-300 flex items-center justify-center text-white text-5xl font-semibold rounded-md"
+    >
+      {{ name.charAt(0).toUpperCase() }}
+    </div>
+
     <div class="flex items-center gap-2 text-lg font-semibold text-gray-800">
       {{ name }}
     </div>
@@ -21,7 +22,7 @@
     </div>
 
     <!-- Edit and Delete buttons -->
-    <div class="absolute top-3 right-3 flex gap-3">
+    <div class="top-3 right-3 flex justify-end gap-3">
       <button
         @click.prevent="$emit('edit')"
         aria-label="Edit contact"

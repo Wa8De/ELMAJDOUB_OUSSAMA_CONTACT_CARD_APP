@@ -1,11 +1,25 @@
 {
   "contacts": [
     {
-      "name": "a",
-      "email": "petu@mailinator.com",
-      "phone": "Fugit nisi laborios",
+      "name": "Anas Bno Malik",
+      "email": "anas@gmail.com",
+      "phone": "1234567890",
       "image": "",
       "id": "e276"
+    },
+    {
+      "name": "WaDe",
+      "email": "wabaxe@mailinator.com",
+      "phone": "063333333",
+      "image": "",
+      "id": "ba5f"
+    },
+    {
+      "id": "aa83",
+      "name": "ELMAJDOUB OUSSAMA",
+      "email": "morrocan.wade@gmail.com",
+      "phone": "0697475278",
+      "image": ""
     }
   ]
 }
